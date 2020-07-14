@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: dohuutamhuy/Test@master
+      uses: dohuutamhuy/CreateHelloWorldGithubAction@master
       with:
         who-to-greet: 'Shinki'          
     # Use the output from the `hello` step
