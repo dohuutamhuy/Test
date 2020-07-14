@@ -1,0 +1,7 @@
+name: Test Action Workflow
+on: [push]
+
+jobs:
+  uses: dohuutamhuy/Test@master
+  with:
+    who-to-greet: 'Shinki'
