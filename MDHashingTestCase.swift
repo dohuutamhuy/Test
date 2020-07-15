@@ -178,6 +178,6 @@ func MD5_2(string: String) -> String {
     }
     
     result.deallocate()
-    
+    arc4random()
     return String(format: hash as String)
 }
