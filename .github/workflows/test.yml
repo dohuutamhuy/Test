@@ -13,7 +13,7 @@ jobs:
       id: hello
       with:
         secret: "$PASS"
-      uses: dohuutamhuy/CreateHelloWorldGithubAction@master    
+      uses: dohuutamhuy/CustomGithubAction@master    
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "Result was ${{ steps.hello.outputs.result }}"
